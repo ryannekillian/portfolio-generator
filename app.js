@@ -1,3 +1,6 @@
-console.log('Hello Node!');
+var message = 'Hello Node!';
 
-console.log(document)
+var sum = 5 + 3;
+
+console.log(message);
+console.log(sum);
