@@ -14,5 +14,10 @@
 
 // printProfileData(profileDataArgs);
 
-const generatePage = (userName, githubName) => `Name: ${userName}, Github: ${githubName}`;
+const generatePage = (userName, githubName) => {
+  return `
+    Name: ${userName}
+    GitHub: ${githubName}
+  `;
+};
 console.log(generatePage('Jane', 'janehub'));
