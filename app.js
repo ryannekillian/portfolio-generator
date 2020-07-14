@@ -13,6 +13,7 @@
 // };
 
 // printProfileData(profileDataArgs);
+const fs = require('fs');
 
 const profileDataArgs = process.argv.slice(2, process.argv.length);
 
