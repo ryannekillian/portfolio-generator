@@ -24,5 +24,5 @@ const generatePage = (userName, githubName) => {
     GitHub: ${githubName}
   `;
 };
-console.log(Jane, github);
+console.log(name, github);
 console.log(generatePage(name, github));
