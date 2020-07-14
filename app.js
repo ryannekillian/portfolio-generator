@@ -7,3 +7,8 @@ const printProfileData = profileDataArr => {
 };
 
 printProfileData(profileDataArgs);
+console.log('================');
+
+profileDataArr.forEach(function(profileItem) {
+  console.log(profileItem);
+});
